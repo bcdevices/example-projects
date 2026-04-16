@@ -1,6 +1,7 @@
 # Example Projects
 
-A collection of KiCad hardware design projects by [BC Devices](https://bcdevices.com).
+A collection of KiCad hardware design projects, well mostly KiCad.
+Confiential files should not be placed here!
 
 ## Structure
 
