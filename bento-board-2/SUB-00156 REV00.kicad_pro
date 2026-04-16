@@ -1,0 +1,1498 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {
+        "apply_defaults_to_fp_fields": false,
+        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_text": false,
+        "board_outline_line_width": 0.05,
+        "copper_line_width": 0.2,
+        "copper_text_italic": false,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "copper_text_upright": false,
+        "courtyard_line_width": 0.05,
+        "dimension_precision": 4,
+        "dimension_units": 3,
+        "dimensions": {
+          "arrow_length": 1270000,
+          "extension_offset": 254000,
+          "keep_text_aligned": true,
+          "suppress_zeroes": true,
+          "text_position": 0,
+          "units_format": 0
+        },
+        "fab_line_width": 0.1,
+        "fab_text_italic": false,
+        "fab_text_size_h": 1.0,
+        "fab_text_size_v": 1.0,
+        "fab_text_thickness": 0.15,
+        "fab_text_upright": false,
+        "other_line_width": 0.1,
+        "other_text_italic": false,
+        "other_text_size_h": 1.0,
+        "other_text_size_v": 1.0,
+        "other_text_thickness": 0.15,
+        "other_text_upright": false,
+        "pads": {
+          "drill": 0.0,
+          "height": 1e-06,
+          "width": 1e-06
+        },
+        "silk_line_width": 0.1,
+        "silk_text_italic": false,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.0508,
+        "silk_text_upright": false,
+        "zones": {
+          "min_clearance": 0.2032
+        }
+      },
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [],
+      "meta": {
+        "version": 2
+      },
+      "rule_severities": {
+        "annular_width": "error",
+        "clearance": "error",
+        "connection_width": "warning",
+        "copper_edge_clearance": "error",
+        "copper_sliver": "warning",
+        "courtyards_overlap": "error",
+        "creepage": "error",
+        "diff_pair_gap_out_of_range": "error",
+        "diff_pair_uncoupled_length_too_long": "error",
+        "drill_out_of_range": "error",
+        "duplicate_footprints": "warning",
+        "extra_footprint": "warning",
+        "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_mismatch": "warning",
+        "footprint_type_mismatch": "ignore",
+        "hole_clearance": "error",
+        "hole_to_hole": "warning",
+        "holes_co_located": "warning",
+        "invalid_outline": "error",
+        "isolated_copper": "warning",
+        "item_on_disabled_layer": "error",
+        "items_not_allowed": "error",
+        "length_out_of_range": "error",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "warning",
+        "malformed_courtyard": "error",
+        "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
+        "missing_courtyard": "ignore",
+        "missing_footprint": "warning",
+        "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
+        "npth_inside_courtyard": "ignore",
+        "padstack": "warning",
+        "pth_inside_courtyard": "ignore",
+        "shorting_items": "error",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
+        "skew_out_of_range": "error",
+        "solder_mask_bridge": "error",
+        "starved_thermal": "error",
+        "text_height": "warning",
+        "text_on_edge_cuts": "error",
+        "text_thickness": "warning",
+        "through_hole_pad_without_hole": "error",
+        "too_many_vias": "error",
+        "track_angle": "error",
+        "track_dangling": "warning",
+        "track_segment_length": "error",
+        "track_width": "error",
+        "tracks_crossing": "error",
+        "unconnected_items": "error",
+        "unresolved_variable": "error",
+        "via_dangling": "warning",
+        "zones_intersect": "error"
+      },
+      "rules": {
+        "max_error": 0.005,
+        "min_clearance": 0.1397,
+        "min_connection": 0.1016,
+        "min_copper_edge_clearance": 0.2286,
+        "min_groove_width": 0.0,
+        "min_hole_clearance": 0.1397,
+        "min_hole_to_hole": 0.2032,
+        "min_microvia_diameter": 0.2032,
+        "min_microvia_drill": 0.1016,
+        "min_resolved_spokes": 2,
+        "min_silk_clearance": 0.0,
+        "min_text_height": 0.7112,
+        "min_text_thickness": 0.0508,
+        "min_through_hole_diameter": 0.2032,
+        "min_track_width": 0.1016,
+        "min_via_annular_width": 0.1016,
+        "min_via_diameter": 0.6096,
+        "solder_mask_to_copper_clearance": 0.0,
+        "use_height_for_length_calcs": true
+      },
+      "teardrop_options": [
+        {
+          "td_onpthpad": true,
+          "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
+          "td_ontrackend": false,
+          "td_onvia": true
+        }
+      ],
+      "teardrop_parameters": [
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_round_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_rect_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_track_end",
+          "td_width_to_size_filter_ratio": 0.9
+        }
+      ],
+      "track_widths": [
+        0.0
+      ],
+      "tuning_pattern_settings": {
+        "diff_pair_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 1.0
+        },
+        "diff_pair_skew_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "single_track_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        }
+      },
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
+      "zones_allow_external_fillets": false
+    },
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
+    },
+    "layer_pairs": [],
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [
+      [
+        "unannotated|863600|927100|db47f1b9-6b18-492e-a5e0-e918dddd3665|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ]
+    ],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
+      "extra_units": "error",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "label_multiple_wires": "warning",
+      "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "error",
+      "power_pin_not_driven": "error",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
+      "similar_labels": "warning",
+      "similar_power": "warning",
+      "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
+      "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "SUB-00156 REV00.kicad_pro",
+    "version": 3
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.1397,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1397,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "90R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1397,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "All Nets",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      }
+    ],
+    "meta": {
+      "version": 4
+    },
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "90R",
+        "pattern": "USB_P"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "USB_N"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "RP_USB_P"
+      },
+      {
+        "netclass": "90R",
+        "pattern": "RP_USB_N"
+      }
+    ]
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "plot": "",
+      "pos_files": "",
+      "specctra_dsn": "",
+      "step": "",
+      "svg": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "ACTUATOR LENGTH",
+          "name": "ACTUATOR LENGTH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALTIUM_VALUE",
+          "name": "ALTIUM_VALUE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ANTENNA TYPE",
+          "name": "ANTENNA TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "BCD ITEM NUMBER",
+          "name": "BCD ITEM NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CAPACITANCE @ VR, F",
+          "name": "CAPACITANCE @ VR, F",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CIRCUIT",
+          "name": "CIRCUIT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CLOCK FREQUENCY",
+          "name": "CLOCK FREQUENCY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COIL VOLTAGE",
+          "name": "COIL VOLTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COLOR",
+          "name": "COLOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK1DESCRIPTION",
+          "name": "COMPONENTLINK1DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "COMPONENTLINK1URL",
+          "name": "COMPONENTLINK1URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONNECTOR TYPE",
+          "name": "CONNECTOR TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONTACT FORM",
+          "name": "CONTACT FORM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONTACT RATING (CURRENT)",
+          "name": "CONTACT RATING (CURRENT)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONTACT TYPE",
+          "name": "CONTACT TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CURRENT - AVERAGE RECTIFIED (IO)",
+          "name": "CURRENT - AVERAGE RECTIFIED (IO)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CURRENT - COLLECTOR (IC) (MAX)",
+          "name": "CURRENT - COLLECTOR (IC) (MAX)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CURRENT - OUTPUT",
+          "name": "CURRENT - OUTPUT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CURRENT - PEAK PULSE (10/1000µS)",
+          "name": "CURRENT - PEAK PULSE (10/1000µS)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CURRENT - QUIESCENT (IQ)",
+          "name": "CURRENT - QUIESCENT (IQ)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CURRENT - RECEIVING",
+          "name": "CURRENT - RECEIVING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CURRENT - REVERSE LEAKAGE @ VR",
+          "name": "CURRENT - REVERSE LEAKAGE @ VR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CURRENT - SATURATION (ISAT)",
+          "name": "CURRENT - SATURATION (ISAT)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CURRENT - SUPPLY (MAX)",
+          "name": "CURRENT - SUPPLY (MAX)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CURRENT - TRANSMITTING",
+          "name": "CURRENT - TRANSMITTING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CURRENT RATING (AMPS)",
+          "name": "CURRENT RATING (AMPS)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CURRENT RATING (MAX)",
+          "name": "CURRENT RATING (MAX)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DATA RATE",
+          "name": "DATA RATE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DC RESISTANCE (DCR)",
+          "name": "DC RESISTANCE (DCR)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DC RESISTANCE (DCR) (MAX)",
+          "name": "DC RESISTANCE (DCR) (MAX)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DNP",
+          "name": "DNP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ESR (EQUIVALENT SERIES RESISTANCE)",
+          "name": "ESR (EQUIVALENT SERIES RESISTANCE)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FILTER TYPE",
+          "name": "FILTER TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FOOTPRINT",
+          "name": "FOOTPRINT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FREQUENCY",
+          "name": "FREQUENCY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FREQUENCY - SELF RESONANT",
+          "name": "FREQUENCY - SELF RESONANT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FREQUENCY STABILITY",
+          "name": "FREQUENCY STABILITY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FREQUENCY TOLERANCE",
+          "name": "FREQUENCY TOLERANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "HEIGHT (MAX)",
+          "name": "HEIGHT (MAX)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "HEIGHT - SEATED (MAX)",
+          "name": "HEIGHT - SEATED (MAX)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "HTTP",
+          "name": "HTTP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "HTTP1",
+          "name": "HTTP1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "HTTP2",
+          "name": "HTTP2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "HTTP3",
+          "name": "HTTP3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "HUMIDITY RANGE",
+          "name": "HUMIDITY RANGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IMPEDANCE @ FREQUENCY",
+          "name": "IMPEDANCE @ FREQUENCY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "INDUCTANCE FREQUENCY - TEST",
+          "name": "INDUCTANCE FREQUENCY - TEST",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "INTERFACE",
+          "name": "INTERFACE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LOAD CAPACITANCE",
+          "name": "LOAD CAPACITANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER NAME",
+          "name": "MANUFACTURER NAME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER NAME1",
+          "name": "MANUFACTURER NAME1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER NAME2",
+          "name": "MANUFACTURER NAME2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER NAME3",
+          "name": "MANUFACTURER NAME3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER PARTNO",
+          "name": "MANUFACTURER PARTNO",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER PARTNO1",
+          "name": "MANUFACTURER PARTNO1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER PARTNO2",
+          "name": "MANUFACTURER PARTNO2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER PARTNO3",
+          "name": "MANUFACTURER PARTNO3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MEMORY FORMAT",
+          "name": "MEMORY FORMAT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MEMORY INTERFACE",
+          "name": "MEMORY INTERFACE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MEMORY ORGANIZATION",
+          "name": "MEMORY ORGANIZATION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MEMORY SIZE",
+          "name": "MEMORY SIZE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MEMORY TYPE",
+          "name": "MEMORY TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOISTURE SENSITIVITY LEVEL (MSL)",
+          "name": "MOISTURE SENSITIVITY LEVEL (MSL)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUNTING FEATURE",
+          "name": "MOUNTING FEATURE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUNTING TYPE",
+          "name": "MOUNTING TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NUMBER OF CONTACTS",
+          "name": "NUMBER OF CONTACTS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NUMBER OF LEDS",
+          "name": "NUMBER OF LEDS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NUMBER OF LINES",
+          "name": "NUMBER OF LINES",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NUMBER OF PORTS",
+          "name": "NUMBER OF PORTS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NUMBER OF POSITIONS",
+          "name": "NUMBER OF POSITIONS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NUMBER OF REGULATORS",
+          "name": "NUMBER OF REGULATORS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NUMBER OF ROWS",
+          "name": "NUMBER OF ROWS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OPERATING FORCE",
+          "name": "OPERATING FORCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OPERATING TEMPERATURE",
+          "name": "OPERATING TEMPERATURE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OPERATING TEMPERATURE - JUNCTION",
+          "name": "OPERATING TEMPERATURE - JUNCTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OUTPUT CONFIGURATION",
+          "name": "OUTPUT CONFIGURATION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "OUTPUT TYPE",
+          "name": "OUTPUT TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE / CASE",
+          "name": "PACKAGE / CASE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PITCH",
+          "name": "PITCH",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PITCH - MATING",
+          "name": "PITCH - MATING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "POWER (WATTS)",
+          "name": "POWER (WATTS)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "POWER - OUTPUT",
+          "name": "POWER - OUTPUT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "POWER - PEAK PULSE",
+          "name": "POWER - PEAK PULSE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PROTOCOL",
+          "name": "PROTOCOL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PSRR",
+          "name": "PSRR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RATINGS",
+          "name": "RATINGS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RF FAMILY/STANDARD",
+          "name": "RF FAMILY/STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ROW SPACING - MATING",
+          "name": "ROW SPACING - MATING",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SENSITIVITY",
+          "name": "SENSITIVITY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SENSOR TYPE",
+          "name": "SENSOR TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SERIAL INTERFACES",
+          "name": "SERIAL INTERFACES",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SHELL/SHIELDING MATERIAL",
+          "name": "SHELL/SHIELDING MATERIAL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SIZE / DIMENSION",
+          "name": "SIZE / DIMENSION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SMD_PAD",
+          "name": "SMD_PAD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SMT_PAD",
+          "name": "SMT_PAD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SPECIFICATIONS",
+          "name": "SPECIFICATIONS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SPEED",
+          "name": "SPEED",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STYLE",
+          "name": "STYLE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SUPPLIER DEVICE PACKAGE",
+          "name": "SUPPLIER DEVICE PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SWITCH FUNCTION",
+          "name": "SWITCH FUNCTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SWITCH TRAVEL",
+          "name": "SWITCH TRAVEL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SWITCHING VOLTAGE",
+          "name": "SWITCHING VOLTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TECHNOLOGY",
+          "name": "TECHNOLOGY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TEMPERATURE COEFFICIENT",
+          "name": "TEMPERATURE COEFFICIENT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "THICKNESS (MAX)",
+          "name": "THICKNESS (MAX)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TOLERANCE",
+          "name": "TOLERANCE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TRANSISTOR TYPE",
+          "name": "TRANSISTOR TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE",
+          "name": "VOLTAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE - BREAKDOWN (MIN)",
+          "name": "VOLTAGE - BREAKDOWN (MIN)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE - CLAMPING (MAX) @ IPP",
+          "name": "VOLTAGE - CLAMPING (MAX) @ IPP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE - COLLECTOR EMITTER BREAKDOWN (MAX)",
+          "name": "VOLTAGE - COLLECTOR EMITTER BREAKDOWN (MAX)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE - DC REVERSE (VR) (MAX)",
+          "name": "VOLTAGE - DC REVERSE (VR) (MAX)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE - FORWARD (VF) (MAX) @ IF",
+          "name": "VOLTAGE - FORWARD (VF) (MAX) @ IF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE - INPUT (MAX)",
+          "name": "VOLTAGE - INPUT (MAX)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE - OUTPUT (MIN/FIXED)",
+          "name": "VOLTAGE - OUTPUT (MIN/FIXED)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE - RATED",
+          "name": "VOLTAGE - RATED",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE - REVERSE STANDOFF (TYP)",
+          "name": "VOLTAGE - REVERSE STANDOFF (TYP)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE - SUPPLY",
+          "name": "VOLTAGE - SUPPLY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE DROPOUT (MAX)",
+          "name": "VOLTAGE DROPOUT (MAX)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOLTAGE RATING - DC",
+          "name": "VOLTAGE RATING - DC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "WAVELENGTH - PEAK",
+          "name": "WAVELENGTH - PEAK",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "WRITE CYCLE TIME - WORD, PAGE",
+          "name": "WRITE CYCLE TIME - WORD, PAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ACCURACY",
+          "name": "ACCURACY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "描述",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "include_excluded_from_bom": true,
+      "name": "",
+      "sort_asc": true,
+      "sort_field": "Reference"
+    },
+    "connection_grid_size": 50.0,
+    "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "",
+    "page_layout_descr_file": "kicad-embed://MyCompany_A4.kicad_wks",
+    "plot_directory": "",
+    "space_save_all_events": true,
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
+    "spice_save_all_voltages": false,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
+  },
+  "sheets": [
+    [
+      "28b46ab4-4cd9-4811-8794-ea013ae5d06b",
+      "Root"
+    ],
+    [
+      "bdc56cca-4d72-4760-a5d2-80598e05a810",
+      "RP2350B MCU"
+    ],
+    [
+      "f7f05003-b6f1-43ad-8ad5-3afd04e90464",
+      "Addr RGB LED"
+    ],
+    [
+      "2bea635c-b4a7-459f-addf-36f877189554",
+      "mikroBUS"
+    ],
+    [
+      "8f8d3d36-f9b0-4c9b-a93a-253c819c959b",
+      "Mechanical"
+    ],
+    [
+      "ab341ca8-5339-4664-9ce5-5c25bdf11c5a",
+      "Relay"
+    ],
+    [
+      "98cb6718-c905-46b4-be9d-2b6edd77ab2b",
+      "Sensor"
+    ],
+    [
+      "d712ab91-321c-4cc2-8f49-84e31ac62137",
+      "Buzzer"
+    ],
+    [
+      "2437f050-d4b8-4fd1-a826-56b11f5bf950",
+      "Power"
+    ],
+    [
+      "238f3158-b0f1-4567-bcb3-9573279fd422",
+      "Type-C"
+    ],
+    [
+      "5403e224-32f1-483c-9667-386bf7fc2707",
+      "ESP32-C3 RFSoC"
+    ],
+    [
+      "38522002-e174-4d4d-b8e8-e9f3a707f5d3",
+      "Qwiic"
+    ]
+  ],
+  "text_variables": {
+    "Approvedby": "XUG",
+    "Date": "2026/04/08",
+    "Drawnby": "Marco",
+    "NumberofPCBLayers": "4",
+    "PCBANumber": "SUB-00156",
+    "PCBCopper": "1 OZ",
+    "PCBFunction": "Bento Board 2",
+    "PCBNumber": "CMP-000451",
+    "PCBRevision": "00",
+    "PCBSize": "113.4*73*1.6",
+    "PCBThickness": "1.57mm",
+    "PCBUnits": "mm",
+    "ProjectNumber": "Demo Board v3",
+    "ReleaseDate": "2026/04/14",
+    "Revision": "00"
+  }
+}

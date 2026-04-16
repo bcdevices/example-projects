@@ -1,0 +1,180 @@
+(footprint "TP-SM-39MILC"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.013254 -1.30803 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1e446ca8-303e-41b2-ba33-868470707d15")
+		(effects
+			(font
+				(face "Arial")
+				(size 0.72009 0.72009)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+		(render_cache "REF**" 90
+			(polygon
+				(pts
+					(xy 180.670401 137.243892) (xy 180.518443 137.339349) (xy 180.417841 137.408205) (xy 180.386435 137.435583)
+					(xy 180.368992 137.456659) (xy 180.357027 137.478554) (xy 180.349557 137.500189) (xy 180.346084 137.553303)
+					(xy 180.346084 137.663974) (xy 180.670401 137.663974) (xy 180.670401 137.759431) (xy 179.947195 137.759431)
+					(xy 179.947195 137.439687) (xy 179.947355 137.43573) (xy 180.028098 137.43573) (xy 180.028098 137.663974)
+					(xy 180.26518 137.663974) (xy 180.26518 137.458857) (xy 180.261358 137.397132) (xy 180.25177 137.356541)
+					(xy 180.240731 137.333464) (xy 180.226428 137.314992) (xy 180.208724 137.30048) (xy 180.177793 137.286083)
+					(xy 180.144441 137.28131) (xy 180.112227 137.285531) (xy 180.08476 137.297785) (xy 180.060855 137.318464)
+					(xy 180.043851 137.345259) (xy 180.032429 137.383133) (xy 180.028098 137.43573) (xy 179.947355 137.43573)
+					(xy 179.949816 137.374969) (xy 179.956689 137.327289) (xy 179.966541 137.293094) (xy 179.982593 137.262096)
+					(xy 180.005119 137.235538) (xy 180.03487 137.212938) (xy 180.068555 137.196285) (xy 180.104401 137.186296)
+					(xy 180.143034 137.182907) (xy 180.180416 137.186136) (xy 180.21388 137.195507) (xy 180.244166 137.210886)
+					(xy 180.27182 137.232592) (xy 180.294208 137.258763) (xy 180.312996 137.292079) (xy 180.327932 137.333932)
+					(xy 180.338389 137.386044) (xy 180.357784 137.351006) (xy 180.374708 137.328533) (xy 180.417184 137.288805)
+					(xy 180.471792 137.2493) (xy 180.670401 137.1239)
+				)
+			)
+			(polygon
+				(pts
+					(xy 180.670401 137.031521) (xy 179.947195 137.031521) (xy 179.947195 136.51009) (xy 180.030912 136.51009)
+					(xy 180.030912 136.936064) (xy 180.253924 136.936064) (xy 180.253924 136.537131) (xy 180.337642 136.537131)
+					(xy 180.337642 136.936064) (xy 180.586683 136.936064) (xy 180.586683 136.493338) (xy 180.670401 136.493338)
+				)
+			)
+			(polygon
+				(pts
+					(xy 180.670401 136.356681) (xy 179.947195 136.356681) (xy 179.947195 135.870206) (xy 180.030912 135.870206)
+					(xy 180.030912 136.261268) (xy 180.256738 136.261268) (xy 180.256738 135.922837) (xy 180.340456 135.922837)
+					(xy 180.340456 136.261268) (xy 180.670401 136.261268)
+				)
+			)
+			(polygon
+				(pts
+					(xy 180.082268 135.792293) (xy 180.011918 135.769648) (xy 180.038903 135.697222) (xy 180.058261 135.656032)
+					(xy 179.935939 135.665881) (xy 179.935939 135.594563) (xy 179.987562 135.597825) (xy 180.057778 135.605863)
+					(xy 180.03449 135.55303) (xy 180.011918 135.489784) (xy 180.082268 135.46714) (xy 180.098443 135.529607)
+					(xy 180.107946 135.589638) (xy 180.139878 135.557438) (xy 180.200853 135.504998) (xy 180.242668 135.564048)
+					(xy 180.199903 135.593201) (xy 180.136966 135.631453) (xy 180.201625 135.667807) (xy 180.242668 135.695384)
+					(xy 180.200853 135.753424) (xy 180.137064 135.699687) (xy 180.107946 135.671773)
+				)
+			)
+			(polygon
+				(pts
+					(xy 180.082268 135.400439) (xy 180.011918 135.377795) (xy 180.038903 135.305369) (xy 180.058261 135.264178)
+					(xy 179.935939 135.274028) (xy 179.935939 135.202709) (xy 179.987562 135.205972) (xy 180.057778 135.21401)
+					(xy 180.03449 135.161176) (xy 180.011918 135.097931) (xy 180.082268 135.075287) (xy 180.098443 135.137753)
+					(xy 180.107946 135.197785) (xy 180.139878 135.165584) (xy 180.200853 135.113144) (xy 180.242668 135.172195)
+					(xy 180.199903 135.201348) (xy 180.136966 135.2396) (xy 180.201625 135.275954) (xy 180.242668 135.303531)
+					(xy 180.200853 135.36157) (xy 180.137064 135.307833) (xy 180.107946 135.279919)
+				)
+			)
+		)
+	)
+	(property "Value" ""
+		(at -1.125716 -0.4953 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9692505f-f065-4d5e-a0b2-96cf5dc14cc0")
+		(effects
+			(font
+				(face "Arial")
+				(size 0.72009 0.72009)
+				(thickness 0.254)
+			)
+			(justify left bottom)
+		)
+		(render_cache "" 90)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "9313d487-9f28-4214-b6a1-c205ba618340")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "fc1c3d31-1021-4ff5-a16f-cf92bb8652b2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 -0.00002 180)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(solder_paste_margin -1)
+		(thermal_bridge_angle 90)
+		(uuid "1f7e60e1-9cc9-47c4-b3e5-fb74213c436b")
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "TP-SM-39MILC.step")
+			(type other)
+			(data |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|
+			)
+			(checksum "43DE0BA63CD62965F052B862A7F505D1")
+		)
+	)
+	(model "kicad-embed://TP-SM-39MILC.step"
+		(offset
+			(xyz 0.00001 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 0)
+		)
+	)
+)

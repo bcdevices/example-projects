@@ -1,0 +1,5579 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "32424751-a31f-4f5c-81fb-df66ff17d725")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Library:GND_POWER_GROUND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "电源符号创建名为 'GND' 的全局标签"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_POWER_GROUND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Library:root_0_16766_BCDConnectorLibrary.IntLib"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Library:16766"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector Header Surface Mount 4 position 0.039\" (1.00mm)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*16766*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_16766_BCDConnectorLibrary.IntLib_1_0"
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.794 4.572)
+					(end 1.27 3.048)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.794 2.032)
+					(end 1.27 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.794 -0.508)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.794 -3.048)
+					(end 1.27 -4.572)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 6.35) (xy 0 6.35) (xy 0 -6.35) (xy 5.08 -6.35) (xy 5.08 6.35)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 3.81 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -3.81 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -8.89 90)
+					(length 2.54)
+					(name "SH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -8.89 90)
+					(length 2.54)
+					(name "SH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Library:root_0_CC0603KRX7R9BB104_BCDResistorCapacitorLibrary.IntLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Library:CC0603-N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*CC0603-N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_CC0603KRX7R9BB104_BCDResistorCapacitorLibrary.IntLib_1_0"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.508) (xy -1.524 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "1"
+					(at 0.762 1.016 900)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Library:root_1_TP_BCDPartsLibrary.IntLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP?"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Library:TP-SM-39MILC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Test Points"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TP-SM-39MILC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_1_TP_BCDPartsLibrary.IntLib_1_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.508)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.016 0)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "TP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Library:root_3_RC0603FR-0710KL_BCDResistorCapacitorLibrary.IntLib"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Library:RC0603-N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10 KOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*RC0603-N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_3_RC0603FR-0710KL_BCDResistorCapacitorLibrary.IntLib_1_0"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -0.762 -2.286) (xy 0.762 -1.651) (xy -0.762 -1.016) (xy 0.762 -0.381) (xy -0.762 0.254)
+						(xy 0.762 0.889) (xy -0.762 1.524) (xy 0.762 2.159) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "1"
+					(at -0.508 2.286 900)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "root_0_16766_BCDConnectorLibrary.IntLib_1"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Library:16766"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector Header Surface Mount 4 position 0.039\" (1.00mm)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*16766*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_16766_BCDConnectorLibrary.IntLib_1_1_0"
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.794 4.572)
+					(end 1.27 3.048)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.794 2.032)
+					(end 1.27 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.794 -0.508)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.794 -3.048)
+					(end 1.27 -4.572)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 6.35) (xy 0 6.35) (xy 0 -6.35) (xy 5.08 -6.35) (xy 5.08 6.35)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 3.81 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -3.81 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -8.89 90)
+					(length 2.54)
+					(name "SH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -8.89 90)
+					(length 2.54)
+					(name "SH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "root_0_CC0603KRX7R9BB104_BCDResistorCapacitorLibrary.IntLib_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Library:CC0603-N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*CC0603-N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_0_CC0603KRX7R9BB104_BCDResistorCapacitorLibrary.IntLib_1_1_0"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.508) (xy -1.524 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "1"
+					(at 0.762 1.016 900)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "root_1_TP_BCDPartsLibrary.IntLib_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP?"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Library:TP-SM-39MILC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Test Points"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TP-SM-39MILC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_1_TP_BCDPartsLibrary.IntLib_1_1_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.508)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.016 0)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "TP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "root_3_RC0603FR-0710KL_BCDResistorCapacitorLibrary.IntLib_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Library:RC0603-N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10 KOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*RC0603-N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_3_RC0603FR-0710KL_BCDResistorCapacitorLibrary.IntLib_1_1_0"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -0.762 -2.286) (xy 0.762 -1.651) (xy -0.762 -1.016) (xy 0.762 -0.381) (xy -0.762 0.254)
+						(xy 0.762 0.889) (xy -0.762 1.524) (xy 0.762 2.159) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "1"
+					(at -0.508 2.286 900)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "root_3_RC0603FR-0710KL_BCDResistorCapacitorLibrary.IntLib_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Library:RC0603-N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10 KOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*RC0603-N*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "root_3_RC0603FR-0710KL_BCDResistorCapacitorLibrary.IntLib_2_1_0"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -0.762 -2.286) (xy 0.762 -1.651) (xy -0.762 -1.016) (xy 0.762 -0.381) (xy -0.762 0.254)
+						(xy 0.762 0.889) (xy -0.762 1.524) (xy 0.762 2.159) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "1"
+					(at -0.508 2.286 900)
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Boards must be 3.3V."
+		(exclude_from_sim no)
+		(at 74.93 44.45 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+			(justify left bottom)
+		)
+		(uuid "405a47b2-195d-4289-a775-6faa4f0c0a1c")
+	)
+	(text "QWIIC"
+		(exclude_from_sim no)
+		(at 170.18 87.63 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "5db00c91-41b3-4e8e-961f-7ed0abd511f0")
+	)
+	(text "QWIIC"
+		(exclude_from_sim no)
+		(at 170.18 138.43 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ae21afa-5618-4f29-89f9-e4566a7664ad")
+	)
+	(text "you may not use a 5-pin or a different size connector."
+		(exclude_from_sim no)
+		(at 74.93 38.1 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9187890-c7da-407b-9e48-751850e74def")
+	)
+	(text "You must use the same style 4-pin connector,JST or equivalent;"
+		(exclude_from_sim no)
+		(at 74.93 33.02 0)
+		(effects
+			(font
+				(size 2.286 2.286)
+			)
+			(justify left bottom)
+		)
+		(uuid "ddf9f3d3-fee5-4772-b547-ca1c663edbea")
+	)
+	(junction
+		(at 100.33 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "069ea36e-b28a-448e-930b-87d82a76430b")
+	)
+	(junction
+		(at 134.62 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b9915ce-8adf-4208-9cf1-7213fd858286")
+	)
+	(junction
+		(at 138.43 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2211416c-ba3d-4765-968d-136136359ce1")
+	)
+	(junction
+		(at 138.43 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2886637b-1444-4014-ad97-844cca463280")
+	)
+	(junction
+		(at 121.92 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "483b3966-4e70-4659-be13-49dcb40332c5")
+	)
+	(junction
+		(at 100.33 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ac6b5d7-a99d-48d2-8360-2f1a9ce4c7af")
+	)
+	(junction
+		(at 132.08 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c5063fb-b49e-4c25-aedb-86e40a15e619")
+	)
+	(junction
+		(at 163.83 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66536c4f-e03a-46fd-9f45-2345a08ab235")
+	)
+	(junction
+		(at 163.83 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c14e38b-c515-4056-aa85-4f94b7d35355")
+	)
+	(junction
+		(at 132.08 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbfcfce9-9694-4c19-add3-5579986634c2")
+	)
+	(junction
+		(at 134.62 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc6604fd-fdc6-4936-91e8-12724221b0c3")
+	)
+	(junction
+		(at 132.08 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc5bbcbe-9681-45db-bf3f-290a1e686a5e")
+	)
+	(junction
+		(at 132.08 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfb3da44-ca93-4bd0-a3ef-c1bb22494e3a")
+	)
+	(junction
+		(at 102.87 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e502c8ed-aad7-4f50-8399-a77aafcefc8d")
+	)
+	(junction
+		(at 134.62 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f891725e-20da-409c-a2e3-1a02b0aa50d7")
+	)
+	(junction
+		(at 134.62 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb32cb9f-2653-4111-aa1a-18e149eb89c7")
+	)
+	(junction
+		(at 102.87 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fddd77b1-95ac-436b-835e-858383d7ba16")
+	)
+	(bus_entry
+		(at 96.52 90.17)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc87761-8f63-4234-b2d0-6ece313fbf74")
+	)
+	(bus_entry
+		(at 96.52 87.63)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c70ee837-5caa-4aa1-99f5-68edd74584e7")
+	)
+	(wire
+		(pts
+			(xy 138.43 60.96) (xy 134.62 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08fbf4e9-3df4-476e-86c9-909de8f35592")
+	)
+	(wire
+		(pts
+			(xy 121.92 60.96) (xy 113.03 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a11506c-917b-4d23-afdc-f73bd6f8c697")
+	)
+	(wire
+		(pts
+			(xy 121.92 111.76) (xy 121.92 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b371531-830e-43df-a330-a7ed1a3b1179")
+	)
+	(wire
+		(pts
+			(xy 147.32 85.09) (xy 147.32 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fbf254f-2285-4c6d-b57f-2c95ef5ebe14")
+	)
+	(wire
+		(pts
+			(xy 132.08 111.76) (xy 121.92 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "101ad7fe-dd13-42a2-9594-fc9748e75564")
+	)
+	(wire
+		(pts
+			(xy 138.43 128.27) (xy 138.43 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "115066d5-f68f-4723-b679-82f50716d96d")
+	)
+	(wire
+		(pts
+			(xy 134.62 66.04) (xy 134.62 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19166678-3000-4693-9e8b-2c32fe533c62")
+	)
+	(wire
+		(pts
+			(xy 163.83 146.05) (xy 163.83 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ecdd181-820f-4c96-b224-21648590a4b7")
+	)
+	(wire
+		(pts
+			(xy 160.02 90.17) (xy 132.08 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "255a96af-38fe-4507-9d8a-f7c7b9f7ad1a")
+	)
+	(wire
+		(pts
+			(xy 158.75 82.55) (xy 160.02 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25ea4de4-bb87-4623-bd16-5f031fda3008")
+	)
+	(wire
+		(pts
+			(xy 96.52 109.22) (xy 100.33 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b95ecb2-e58e-4494-b8ed-7c1b26db9103")
+	)
+	(wire
+		(pts
+			(xy 166.37 146.05) (xy 166.37 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c5b028a-0014-4318-bfc1-d2985d64be09")
+	)
+	(wire
+		(pts
+			(xy 102.87 87.63) (xy 96.52 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31aeb2d3-064c-4ad4-8d91-3d9533d6e80a")
+	)
+	(wire
+		(pts
+			(xy 102.87 111.76) (xy 102.87 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32bb39b6-734d-4aa5-9c94-8b2667359f01")
+	)
+	(wire
+		(pts
+			(xy 138.43 111.76) (xy 134.62 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b00b40c-f37d-4383-947f-e3ce302ea64c")
+	)
+	(wire
+		(pts
+			(xy 160.02 140.97) (xy 132.08 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "473eba34-ac15-4e12-b774-95034b16ef25")
+	)
+	(wire
+		(pts
+			(xy 160.02 85.09) (xy 147.32 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5450904d-a17b-4eae-8d44-55b3da249aaf")
+	)
+	(wire
+		(pts
+			(xy 132.08 127) (xy 132.08 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "567dc292-9993-4304-a72f-a51db0b27b55")
+	)
+	(wire
+		(pts
+			(xy 163.83 97.79) (xy 163.83 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60978cd2-786d-4164-951f-da11919dd262")
+	)
+	(wire
+		(pts
+			(xy 138.43 67.31) (xy 138.43 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "636faf81-7ff7-4d8e-a2b1-9547d17101b2")
+	)
+	(wire
+		(pts
+			(xy 160.02 138.43) (xy 134.62 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "643d4fa3-3329-493e-8cf9-d98b2f9a25b9")
+	)
+	(wire
+		(pts
+			(xy 134.62 87.63) (xy 102.87 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c1fd95d-1883-4511-8dd6-240c7efd5c67")
+	)
+	(wire
+		(pts
+			(xy 132.08 90.17) (xy 100.33 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb1483f-f071-4b51-be8a-60a26ae9b3a8")
+	)
+	(wire
+		(pts
+			(xy 132.08 76.2) (xy 132.08 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70805089-76c4-4049-ae1f-8c3e6cef3159")
+	)
+	(bus
+		(pts
+			(xy 72.39 87.63) (xy 93.98 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c2e0d4-5490-4bc8-9e48-52a9e1e59a87")
+	)
+	(wire
+		(pts
+			(xy 163.83 148.59) (xy 163.83 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ababef6-95ba-4572-bff7-21e609bdcfdd")
+	)
+	(wire
+		(pts
+			(xy 100.33 140.97) (xy 100.33 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b10692c-1728-433d-a3b6-5ddefe0a8b4c")
+	)
+	(wire
+		(pts
+			(xy 147.32 135.89) (xy 147.32 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875aa745-1447-45eb-b7ba-33273ef5b034")
+	)
+	(wire
+		(pts
+			(xy 102.87 138.43) (xy 102.87 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a8b2f8e-984c-4589-bdb5-bae6f871cffa")
+	)
+	(wire
+		(pts
+			(xy 132.08 140.97) (xy 100.33 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f366e80-0f0a-44c4-8c22-931f5e096c8f")
+	)
+	(wire
+		(pts
+			(xy 96.52 111.76) (xy 102.87 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92dc28df-ac34-49be-b68b-03df577902f2")
+	)
+	(wire
+		(pts
+			(xy 158.75 133.35) (xy 160.02 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09afaf6-bd63-400a-9aaf-95473f7261e6")
+	)
+	(wire
+		(pts
+			(xy 132.08 66.04) (xy 132.08 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a13fdd99-7286-414a-a531-8636bb8be13f")
+	)
+	(wire
+		(pts
+			(xy 134.62 138.43) (xy 102.87 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6d31f5e-5d33-4e05-b352-d1e0fafcfe1e")
+	)
+	(wire
+		(pts
+			(xy 134.62 127) (xy 134.62 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a995ae05-6977-4e04-8201-0f8346d48616")
+	)
+	(wire
+		(pts
+			(xy 134.62 111.76) (xy 132.08 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b462718b-44d2-4c9c-9781-79a05f489cf2")
+	)
+	(wire
+		(pts
+			(xy 134.62 116.84) (xy 134.62 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bccd5c2a-2ad3-4a12-8d49-7fdc802106a5")
+	)
+	(wire
+		(pts
+			(xy 147.32 111.76) (xy 138.43 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c115a88b-4b60-4903-a7da-b8f248ffc7df")
+	)
+	(wire
+		(pts
+			(xy 147.32 60.96) (xy 138.43 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c24af4d1-f3b7-4996-99c4-20a94323e281")
+	)
+	(bus
+		(pts
+			(xy 93.98 87.63) (xy 93.98 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4bcd0ef-8dd1-446b-949e-1854e036d4af")
+	)
+	(wire
+		(pts
+			(xy 134.62 76.2) (xy 134.62 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7565e1d-d87a-47c8-93ea-2247351c8cf6")
+	)
+	(wire
+		(pts
+			(xy 132.08 116.84) (xy 132.08 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb46f1ae-39bf-467c-9147-fefe6b246c93")
+	)
+	(wire
+		(pts
+			(xy 166.37 95.25) (xy 166.37 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb560ca0-9e3d-4938-b885-6b18e0838306")
+	)
+	(wire
+		(pts
+			(xy 138.43 77.47) (xy 138.43 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6d091a-3165-4b63-aaa2-04e7c7d71a9b")
+	)
+	(wire
+		(pts
+			(xy 163.83 95.25) (xy 163.83 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd8c08dd-4fd1-40e6-a8b9-6644092e51e4")
+	)
+	(wire
+		(pts
+			(xy 134.62 60.96) (xy 132.08 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddecce2b-0a04-477f-bb78-e5683902cd9d")
+	)
+	(wire
+		(pts
+			(xy 160.02 135.89) (xy 147.32 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "defbe776-f158-45eb-a3c6-c31306887738")
+	)
+	(wire
+		(pts
+			(xy 166.37 148.59) (xy 163.83 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e59a7cee-052e-4fb3-8701-f3f5166a12a1")
+	)
+	(wire
+		(pts
+			(xy 132.08 60.96) (xy 121.92 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5f8738c-8b44-451c-9600-3f761213127a")
+	)
+	(wire
+		(pts
+			(xy 166.37 97.79) (xy 163.83 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edab4a1a-5562-4c9f-8b1a-e359ba991409")
+	)
+	(wire
+		(pts
+			(xy 100.33 90.17) (xy 96.52 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c8ad89-9e5e-4396-9405-cfa584e22320")
+	)
+	(wire
+		(pts
+			(xy 100.33 109.22) (xy 100.33 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4884acd-c49e-4aa7-8f7c-f11d318dcfbe")
+	)
+	(wire
+		(pts
+			(xy 160.02 87.63) (xy 134.62 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5e4a96f-0653-49f8-bd01-b5c5991c4c8e")
+	)
+	(wire
+		(pts
+			(xy 138.43 118.11) (xy 138.43 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6dbe52b-0a29-4a26-bdd6-d3754c922e31")
+	)
+	(label "SENS_I2C{SDA,SCL}"
+		(at 73.66 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b68db38-10ce-4b2d-b8d9-3202a420e226")
+	)
+	(label "SENS_I2C.SDA"
+		(at 104.14 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd4cc86f-cfe6-49ae-8e2c-f79c1fdbb527")
+	)
+	(label "SENS_I2C.SCL"
+		(at 104.14 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ead03163-f564-4599-8100-f1bbb13cf3e5")
+	)
+	(hierarchical_label "3V3_QWIIC"
+		(shape input)
+		(at 113.03 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2ecc1130-547a-4928-bd8c-e929125bee8d")
+	)
+	(hierarchical_label "SENS_I2C{SDA,SCL}"
+		(shape bidirectional)
+		(at 72.39 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f39b8141-e884-4de3-b5ee-ee16651b7ea2")
+	)
+	(symbol
+		(lib_name "root_3_RC0603FR-0710KL_BCDResistorCapacitorLibrary.IntLib_2")
+		(lib_id "Library:root_3_RC0603FR-0710KL_BCDResistorCapacitorLibrary.IntLib")
+		(at 134.62 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "098bfe79-2c6e-4e46-b712-ee687995cd5d")
+		(property "Reference" "R15"
+			(at 134.62 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 134.62 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Library:RC0603-N"
+			(at 134.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 KOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 134.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO" "RC0603FR-0710KL"
+			(at 133.604 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME" "YAGEO"
+			(at 133.604 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "BCD ITEM NUMBER" "CMP-000062"
+			(at 133.604 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO1" "ERJ-3EKF1002V"
+			(at 133.604 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME1" "Panasonic Electronic Components"
+			(at 133.604 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO2" "CRCW060310K0FKEA"
+			(at 133.604 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME2" "Vishay Dale"
+			(at 133.604 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO3" "MCR03EZPFX1002"
+			(at 133.604 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME3" "Rohm Semiconductor"
+			(at 133.604 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT" "0603 (1608 Metric)"
+			(at 133.604 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SMD_PAD" "2"
+			(at 133.604 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "±1%"
+			(at 133.604 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "POWER (WATTS)" "0.1W, 1/10W"
+			(at 133.604 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RATINGS" ""
+			(at 133.604 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNTING TYPE" "Surface Mount"
+			(at 133.604 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE / CASE" "0603 (1608 Metric)"
+			(at 133.604 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SIZE / DIMENSION" "0.063\" L x 0.031\" W (1.60mm x 0.80mm)"
+			(at 133.604 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT - SEATED (MAX)" "0.022\" (0.55mm)"
+			(at 133.604 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOISTURE SENSITIVITY LEVEL (MSL)" "1"
+			(at 133.604 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "10K"
+			(at 133.604 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DNP" ""
+			(at 133.604 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HTTP" "https://www.yageo.com/zh-CN/Home"
+			(at 133.604 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HTTP1" "https://na.industrial.panasonic.com/"
+			(at 133.604 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HTTP2" "https://www.vishay.com/"
+			(at 133.604 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HTTP3" "https://www.rohm.com/"
+			(at 133.604 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28d1d45f-9b47-402a-a963-3baa84c7e325")
+		)
+		(pin "1"
+			(uuid "ee64970d-c0d8-4a98-ab97-97c901c014d8")
+		)
+		(instances
+			(project "SUB-00156 REV00"
+				(path "/28b46ab4-4cd9-4811-8794-ea013ae5d06b/38522002-e174-4d4d-b8e8-e9f3a707f5d3"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "root_0_16766_BCDConnectorLibrary.IntLib_1")
+		(lib_id "Library:root_0_16766_BCDConnectorLibrary.IntLib")
+		(at 162.56 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30e81576-28d6-4b4e-9d09-2b1b611c674c")
+		(property "Reference" "J5"
+			(at 162.56 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 162.56 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Library:16766"
+			(at 162.56 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount 4 position 0.039\" (1.00mm)"
+			(at 162.56 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO" "16766"
+			(at 161.29 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME" "SparkFun Electronics"
+			(at 161.29 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "BCD ITEM NUMBER" "CMP-000206"
+			(at 161.29 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO1" ""
+			(at 159.512 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME1" ""
+			(at 159.512 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO2" ""
+			(at 159.512 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME2" ""
+			(at 159.512 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO3" ""
+			(at 160.02 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME3" ""
+			(at 159.512 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT" ""
+			(at 159.512 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SMD_PAD" "4"
+			(at 159.512 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONNECTOR TYPE" "Header"
+			(at 159.512 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACT TYPE" "Male Pin"
+			(at 159.512 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PITCH" "0.039\" (1.00mm)"
+			(at 159.512 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PITCH - MATING" "0.039\" (1.00mm)"
+			(at 159.512 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF POSITIONS" "4"
+			(at 159.512 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF ROWS" "1"
+			(at 159.512 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNTING TYPE" "Surface Mount"
+			(at 159.512 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "STYLE" "Board to Cable/Wire"
+			(at 159.512 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOISTURE SENSITIVITY LEVEL (MSL)" "1"
+			(at 159.512 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "16766"
+			(at 159.512 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DNP" ""
+			(at 159.512 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HTTP" "https://www.sparkfun.com/"
+			(at 159.512 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ROW SPACING - MATING" ""
+			(at 159.512 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "SH2"
+			(uuid "c5c21c13-feb9-45bc-b639-dd47b43e236e")
+		)
+		(pin "4"
+			(uuid "a35e263d-82c6-4c88-8e76-21698266c6f4")
+		)
+		(pin "SH1"
+			(uuid "572122de-6a0f-4bcf-89a4-20428d373a70")
+		)
+		(pin "2"
+			(uuid "705b5bf9-2848-4cbc-8ad5-893a680d711a")
+		)
+		(pin "3"
+			(uuid "1412b50b-7674-463c-9341-5be3f666c6a5")
+		)
+		(pin "1"
+			(uuid "02b3bf55-760d-4367-b215-57ecdd4323a1")
+		)
+		(instances
+			(project "SUB-00156 REV00"
+				(path "/28b46ab4-4cd9-4811-8794-ea013ae5d06b/38522002-e174-4d4d-b8e8-e9f3a707f5d3"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:root_0_CC0603KRX7R9BB104_BCDResistorCapacitorLibrary.IntLib")
+		(at 138.43 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36e5bdc5-bbd0-4c67-87a2-ab97021607f9")
+		(property "Reference" "C10"
+			(at 140.208 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 140.208 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Library:CC0603-N"
+			(at 138.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 138.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO" "CC0603KRX7R9BB104"
+			(at 136.144 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME" "YAGEO"
+			(at 136.144 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "BCD ITEM NUMBER" "CMP-000037"
+			(at 136.144 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO1" "885012206095"
+			(at 136.144 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME1" "Wurth Elektronik"
+			(at 136.144 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO2" ""
+			(at 136.144 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME2" ""
+			(at 136.144 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO3" ""
+			(at 136.144 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME3" ""
+			(at 136.144 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT" "0603 (1608 Metric)"
+			(at 136.144 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SMD_PAD" "2"
+			(at 136.144 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "±10%"
+			(at 136.144 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RATINGS" ""
+			(at 136.144 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNTING TYPE" "Surface Mount, MLCC"
+			(at 136.144 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE / CASE" "0603 (1608 Metric)"
+			(at 136.144 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SIZE / DIMENSION" "0.063\" L x 0.031\" W (1.60mm x 0.80mm)"
+			(at 136.144 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "THICKNESS (MAX)" "0.035\" (0.90mm)"
+			(at 136.144 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOISTURE SENSITIVITY LEVEL (MSL)" "1"
+			(at 136.144 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "0.1μF"
+			(at 136.144 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DNP" ""
+			(at 136.144 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HTTP" "https://www.yageo.com/zh-CN/Home"
+			(at 136.144 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE COEFFICIENT" "X7R"
+			(at 136.144 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HTTP1" "https://www.we-online.com/en"
+			(at 136.144 80.518 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "50V"
+			(at 140.208 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "2df123dc-33b2-40ad-a3e9-dabc579b18ca")
+		)
+		(pin "2"
+			(uuid "681f7c27-7701-4373-92bc-763bd002c562")
+		)
+		(instances
+			(project "SUB-00156 REV00"
+				(path "/28b46ab4-4cd9-4811-8794-ea013ae5d06b/38522002-e174-4d4d-b8e8-e9f3a707f5d3"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:GND_POWER_GROUND")
+		(at 163.83 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "528cd182-943f-4dcc-9624-1a8ff50382fb")
+		(property "Reference" "#PWR031"
+			(at 163.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "9aa47abf-cf31-4c03-b8a1-f8d13884be04")
+		)
+		(instances
+			(project "SUB-00156 REV00"
+				(path "/28b46ab4-4cd9-4811-8794-ea013ae5d06b/38522002-e174-4d4d-b8e8-e9f3a707f5d3"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:root_3_RC0603FR-0710KL_BCDResistorCapacitorLibrary.IntLib")
+		(at 132.08 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63a72460-ab81-4db7-84ac-2d738be6a73a")
+		(property "Reference" "R14"
+			(at 132.08 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 132.08 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Library:RC0603-N"
+			(at 132.08 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 KOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 132.08 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO" "RC0603FR-0710KL"
+			(at 131.064 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME" "YAGEO"
+			(at 131.064 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "BCD ITEM NUMBER" "CMP-000062"
+			(at 131.064 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO1" "ERJ-3EKF1002V"
+			(at 131.064 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME1" "Panasonic Electronic Components"
+			(at 131.064 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO2" "CRCW060310K0FKEA"
+			(at 131.064 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME2" "Vishay Dale"
+			(at 131.064 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO3" "MCR03EZPFX1002"
+			(at 131.064 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME3" "Rohm Semiconductor"
+			(at 131.064 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT" "0603 (1608 Metric)"
+			(at 131.064 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SMD_PAD" "2"
+			(at 131.064 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "±1%"
+			(at 131.064 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "POWER (WATTS)" "0.1W, 1/10W"
+			(at 131.064 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RATINGS" ""
+			(at 131.064 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNTING TYPE" "Surface Mount"
+			(at 131.064 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE / CASE" "0603 (1608 Metric)"
+			(at 131.064 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SIZE / DIMENSION" "0.063\" L x 0.031\" W (1.60mm x 0.80mm)"
+			(at 131.064 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT - SEATED (MAX)" "0.022\" (0.55mm)"
+			(at 131.064 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOISTURE SENSITIVITY LEVEL (MSL)" "1"
+			(at 131.064 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "10K"
+			(at 131.064 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DNP" ""
+			(at 131.064 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HTTP" "https://www.yageo.com/zh-CN/Home"
+			(at 131.064 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HTTP1" "https://na.industrial.panasonic.com/"
+			(at 131.064 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HTTP2" "https://www.vishay.com/"
+			(at 131.064 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HTTP3" "https://www.rohm.com/"
+			(at 131.064 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ec894be-6998-4137-8eb0-005cde1d69b6")
+		)
+		(pin "2"
+			(uuid "79b109dc-2d08-4ade-a92a-38d001cd1c96")
+		)
+		(instances
+			(project "SUB-00156 REV00"
+				(path "/28b46ab4-4cd9-4811-8794-ea013ae5d06b/38522002-e174-4d4d-b8e8-e9f3a707f5d3"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "root_0_CC0603KRX7R9BB104_BCDResistorCapacitorLibrary.IntLib_1")
+		(lib_id "Library:root_0_CC0603KRX7R9BB104_BCDResistorCapacitorLibrary.IntLib")
+		(at 138.43 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "646c1223-a625-4770-908d-ea2d2157e1b3")
+		(property "Reference" "C11"
+			(at 140.208 122.936 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 140.208 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Library:CC0603-N"
+			(at 138.43 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 138.43 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO" "CC0603KRX7R9BB104"
+			(at 136.144 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME" "YAGEO"
+			(at 136.144 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "BCD ITEM NUMBER" "CMP-000037"
+			(at 136.144 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO1" "885012206095"
+			(at 136.144 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME1" "Wurth Elektronik"
+			(at 136.144 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO2" ""
+			(at 136.144 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME2" ""
+			(at 136.144 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO3" ""
+			(at 136.144 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME3" ""
+			(at 136.144 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT" "0603 (1608 Metric)"
+			(at 136.144 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SMD_PAD" "2"
+			(at 136.144 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "±10%"
+			(at 136.144 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RATINGS" ""
+			(at 136.144 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNTING TYPE" "Surface Mount, MLCC"
+			(at 136.144 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE / CASE" "0603 (1608 Metric)"
+			(at 136.144 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SIZE / DIMENSION" "0.063\" L x 0.031\" W (1.60mm x 0.80mm)"
+			(at 136.144 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "THICKNESS (MAX)" "0.035\" (0.90mm)"
+			(at 136.144 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOISTURE SENSITIVITY LEVEL (MSL)" "1"
+			(at 136.144 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "0.1μF"
+			(at 136.144 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DNP" ""
+			(at 136.144 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HTTP" "https://www.yageo.com/zh-CN/Home"
+			(at 136.144 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE COEFFICIENT" "X7R"
+			(at 136.144 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HTTP1" "https://www.we-online.com/en"
+			(at 136.144 131.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "50V"
+			(at 140.208 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "4c686a60-02f4-4095-a11e-b8684c366865")
+		)
+		(pin "1"
+			(uuid "ee727b81-a3f0-495a-ad30-cd2db72af361")
+		)
+		(instances
+			(project "SUB-00156 REV00"
+				(path "/28b46ab4-4cd9-4811-8794-ea013ae5d06b/38522002-e174-4d4d-b8e8-e9f3a707f5d3"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:GND_POWER_GROUND")
+		(at 163.83 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69a2657e-e8ef-4167-a340-92fb7053ea8a")
+		(property "Reference" "#PWR032"
+			(at 163.83 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "772ede82-f585-40f5-996e-35a14474b02c")
+		)
+		(instances
+			(project "SUB-00156 REV00"
+				(path "/28b46ab4-4cd9-4811-8794-ea013ae5d06b/38522002-e174-4d4d-b8e8-e9f3a707f5d3"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:GND_POWER_GROUND")
+		(at 158.75 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "866e0694-01a2-4555-8f5f-d235eb3ab893")
+		(property "Reference" "#PWR030"
+			(at 158.75 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "63fbe200-4dc1-40eb-b3fa-f9530136454c")
+		)
+		(instances
+			(project "SUB-00156 REV00"
+				(path "/28b46ab4-4cd9-4811-8794-ea013ae5d06b/38522002-e174-4d4d-b8e8-e9f3a707f5d3"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:root_0_16766_BCDConnectorLibrary.IntLib")
+		(at 162.56 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a514bdfd-5555-4d77-a510-da4160a007d6")
+		(property "Reference" "J4"
+			(at 162.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 162.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Library:16766"
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector Header Surface Mount 4 position 0.039\" (1.00mm)"
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO" "16766"
+			(at 161.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME" "SparkFun Electronics"
+			(at 161.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "BCD ITEM NUMBER" "CMP-000206"
+			(at 161.29 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO1" ""
+			(at 159.512 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME1" ""
+			(at 159.512 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO2" ""
+			(at 159.512 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME2" ""
+			(at 159.512 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO3" ""
+			(at 160.02 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME3" ""
+			(at 159.512 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT" ""
+			(at 159.512 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SMD_PAD" "4"
+			(at 159.512 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONNECTOR TYPE" "Header"
+			(at 159.512 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACT TYPE" "Male Pin"
+			(at 159.512 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PITCH" "0.039\" (1.00mm)"
+			(at 159.512 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PITCH - MATING" "0.039\" (1.00mm)"
+			(at 159.512 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF POSITIONS" "4"
+			(at 159.512 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF ROWS" "1"
+			(at 159.512 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNTING TYPE" "Surface Mount"
+			(at 159.512 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "STYLE" "Board to Cable/Wire"
+			(at 159.512 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOISTURE SENSITIVITY LEVEL (MSL)" "1"
+			(at 159.512 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "16766"
+			(at 159.512 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DNP" ""
+			(at 159.512 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HTTP" "https://www.sparkfun.com/"
+			(at 159.512 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ROW SPACING - MATING" ""
+			(at 159.512 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2ea7945-4a48-412c-8da9-96b09638c177")
+		)
+		(pin "4"
+			(uuid "05473b6b-ba34-49c6-9913-53335bcf5b01")
+		)
+		(pin "SH2"
+			(uuid "997b3cbe-b6cb-494c-b6e9-b324b95753aa")
+		)
+		(pin "SH1"
+			(uuid "393cf2a7-e63d-423b-9dc2-0516edfe8016")
+		)
+		(pin "3"
+			(uuid "c3f8c5d3-09ad-4828-aa2f-7b1d848f23e9")
+		)
+		(pin "2"
+			(uuid "39956095-357c-460e-b361-8053782c5b6b")
+		)
+		(instances
+			(project "SUB-00156 REV00"
+				(path "/28b46ab4-4cd9-4811-8794-ea013ae5d06b/38522002-e174-4d4d-b8e8-e9f3a707f5d3"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:GND_POWER_GROUND")
+		(at 138.43 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7138ae7-4f70-4166-89d0-f0d8387d9f7e")
+		(property "Reference" "#PWR028"
+			(at 138.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "fa1c3434-9c52-4d9a-9402-5fdc07bb0a8c")
+		)
+		(instances
+			(project "SUB-00156 REV00"
+				(path "/28b46ab4-4cd9-4811-8794-ea013ae5d06b/38522002-e174-4d4d-b8e8-e9f3a707f5d3"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "root_3_RC0603FR-0710KL_BCDResistorCapacitorLibrary.IntLib_1")
+		(lib_id "Library:root_3_RC0603FR-0710KL_BCDResistorCapacitorLibrary.IntLib")
+		(at 132.08 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a753e362-1acb-42c8-a529-513dad8fd446")
+		(property "Reference" "R13"
+			(at 132.08 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 132.08 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Library:RC0603-N"
+			(at 132.08 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 KOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 132.08 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO" "RC0603FR-0710KL"
+			(at 131.064 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME" "YAGEO"
+			(at 131.064 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "BCD ITEM NUMBER" "CMP-000062"
+			(at 131.064 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO1" "ERJ-3EKF1002V"
+			(at 131.064 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME1" "Panasonic Electronic Components"
+			(at 131.064 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO2" "CRCW060310K0FKEA"
+			(at 131.064 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME2" "Vishay Dale"
+			(at 131.064 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO3" "MCR03EZPFX1002"
+			(at 131.064 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME3" "Rohm Semiconductor"
+			(at 131.064 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT" "0603 (1608 Metric)"
+			(at 131.064 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SMD_PAD" "2"
+			(at 131.064 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "±1%"
+			(at 131.064 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "POWER (WATTS)" "0.1W, 1/10W"
+			(at 131.064 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RATINGS" ""
+			(at 131.064 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNTING TYPE" "Surface Mount"
+			(at 131.064 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE / CASE" "0603 (1608 Metric)"
+			(at 131.064 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SIZE / DIMENSION" "0.063\" L x 0.031\" W (1.60mm x 0.80mm)"
+			(at 131.064 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT - SEATED (MAX)" "0.022\" (0.55mm)"
+			(at 131.064 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOISTURE SENSITIVITY LEVEL (MSL)" "1"
+			(at 131.064 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "10K"
+			(at 131.064 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DNP" ""
+			(at 131.064 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HTTP" "https://www.yageo.com/zh-CN/Home"
+			(at 131.064 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HTTP1" "https://na.industrial.panasonic.com/"
+			(at 131.064 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HTTP2" "https://www.vishay.com/"
+			(at 131.064 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HTTP3" "https://www.rohm.com/"
+			(at 131.064 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ff165e1d-bf37-406e-9522-fe8ec4e46e8a")
+		)
+		(pin "1"
+			(uuid "dca85fdd-d7e6-472d-876b-40938c2ccf11")
+		)
+		(instances
+			(project "SUB-00156 REV00"
+				(path "/28b46ab4-4cd9-4811-8794-ea013ae5d06b/38522002-e174-4d4d-b8e8-e9f3a707f5d3"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:GND_POWER_GROUND")
+		(at 138.43 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8a5efb2-4b37-4f89-a481-22e426326a7a")
+		(property "Reference" "#PWR027"
+			(at 138.43 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "2725d800-5dc5-4c61-a985-e130a7a4e227")
+		)
+		(instances
+			(project "SUB-00156 REV00"
+				(path "/28b46ab4-4cd9-4811-8794-ea013ae5d06b/38522002-e174-4d4d-b8e8-e9f3a707f5d3"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "root_1_TP_BCDPartsLibrary.IntLib_1")
+		(lib_id "Library:root_1_TP_BCDPartsLibrary.IntLib")
+		(at 93.98 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba663f39-b9d8-4835-aa1b-8a21a69a551b")
+		(property "Reference" "I2C_SCL"
+			(at 81.28 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 91.948 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:TP-SM-39MILC"
+			(at 93.98 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Points"
+			(at 93.98 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO" ""
+			(at 91.948 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME" ""
+			(at 91.948 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "BCD ITEM NUMBER" ""
+			(at 91.948 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT" ""
+			(at 91.948 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNTING TYPE" ""
+			(at 91.948 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 91.948 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DNP" ""
+			(at 91.948 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HTTP" ""
+			(at 91.948 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f31faaeb-0c54-4eaf-8e47-836814f2e0d3")
+		)
+		(instances
+			(project "SUB-00156 REV00"
+				(path "/28b46ab4-4cd9-4811-8794-ea013ae5d06b/38522002-e174-4d4d-b8e8-e9f3a707f5d3"
+					(reference "I2C_SCL")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:GND_POWER_GROUND")
+		(at 158.75 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc256a3f-b526-40c7-9201-6ba38479930a")
+		(property "Reference" "#PWR029"
+			(at 158.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 152.4 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "c394e2ac-b568-467a-be2f-fc5a91617d50")
+		)
+		(instances
+			(project "SUB-00156 REV00"
+				(path "/28b46ab4-4cd9-4811-8794-ea013ae5d06b/38522002-e174-4d4d-b8e8-e9f3a707f5d3"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:root_1_TP_BCDPartsLibrary.IntLib")
+		(at 93.98 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df91247d-b1c2-4715-b528-d1bf05bba40c")
+		(property "Reference" "I2C_SDA"
+			(at 81.28 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 91.948 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:TP-SM-39MILC"
+			(at 93.98 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Test Points"
+			(at 93.98 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO" ""
+			(at 91.948 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME" ""
+			(at 91.948 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "BCD ITEM NUMBER" ""
+			(at 91.948 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT" ""
+			(at 91.948 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNTING TYPE" ""
+			(at 91.948 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 91.948 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DNP" ""
+			(at 91.948 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HTTP" ""
+			(at 91.948 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c18af962-93af-4252-890e-fa7b8c0c854c")
+		)
+		(instances
+			(project "SUB-00156 REV00"
+				(path "/28b46ab4-4cd9-4811-8794-ea013ae5d06b/38522002-e174-4d4d-b8e8-e9f3a707f5d3"
+					(reference "I2C_SDA")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:root_3_RC0603FR-0710KL_BCDResistorCapacitorLibrary.IntLib")
+		(at 134.62 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfb441a8-51bb-4e12-aee4-a10377c9d92c")
+		(property "Reference" "R16"
+			(at 134.62 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "${ALTIUM_VALUE}"
+			(at 134.62 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Library:RC0603-N"
+			(at 134.62 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 KOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 134.62 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO" "RC0603FR-0710KL"
+			(at 133.604 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME" "YAGEO"
+			(at 133.604 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "BCD ITEM NUMBER" "CMP-000062"
+			(at 133.604 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO1" "ERJ-3EKF1002V"
+			(at 133.604 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME1" "Panasonic Electronic Components"
+			(at 133.604 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO2" "CRCW060310K0FKEA"
+			(at 133.604 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME2" "Vishay Dale"
+			(at 133.604 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PARTNO3" "MCR03EZPFX1002"
+			(at 133.604 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER NAME3" "Rohm Semiconductor"
+			(at 133.604 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT" "0603 (1608 Metric)"
+			(at 133.604 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SMD_PAD" "2"
+			(at 133.604 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "±1%"
+			(at 133.604 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "POWER (WATTS)" "0.1W, 1/10W"
+			(at 133.604 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RATINGS" ""
+			(at 133.604 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNTING TYPE" "Surface Mount"
+			(at 133.604 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE / CASE" "0603 (1608 Metric)"
+			(at 133.604 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SIZE / DIMENSION" "0.063\" L x 0.031\" W (1.60mm x 0.80mm)"
+			(at 133.604 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT - SEATED (MAX)" "0.022\" (0.55mm)"
+			(at 133.604 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOISTURE SENSITIVITY LEVEL (MSL)" "1"
+			(at 133.604 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "10K"
+			(at 133.604 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DNP" ""
+			(at 133.604 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HTTP" "https://www.yageo.com/zh-CN/Home"
+			(at 133.604 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HTTP1" "https://na.industrial.panasonic.com/"
+			(at 133.604 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HTTP2" "https://www.vishay.com/"
+			(at 133.604 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HTTP3" "https://www.rohm.com/"
+			(at 133.604 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "092b0625-539a-4d89-83fa-382c2349222e")
+		)
+		(pin "2"
+			(uuid "fe2ff545-bd68-4cf6-b125-f7f924cfad70")
+		)
+		(instances
+			(project "SUB-00156 REV00"
+				(path "/28b46ab4-4cd9-4811-8794-ea013ae5d06b/38522002-e174-4d4d-b8e8-e9f3a707f5d3"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
