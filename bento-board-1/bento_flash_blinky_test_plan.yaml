@@ -34,7 +34,7 @@ suite:
   
   - title: "Defines"
     steps:
-      - command: define FIRMWARE "zephyr.hex"
+      - command: define FIRMWARE "blinky.hex"
 
   - title: "Setup Programming Session"
     steps:
