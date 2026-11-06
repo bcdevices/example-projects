@@ -6,7 +6,7 @@
 | Component | License |
 |---|---|
 | Hardware design files (KiCad) | [CERN-OHL-P-2.0](LICENSE-HARDWARE) |
-| Firmware | Apache-2.0 ([firmware repo](PASTE_FIRMWARE_REPO_URL)) |
+| Firmware | Apache-2.0 ([firmware repo](https://github.com/bcdevices/example-projects/tree/main/bento-board/firmware-blinky)) |
 | Documentation | [CC-BY-4.0](LICENSE-DOCS) |
 
 ## Credits
