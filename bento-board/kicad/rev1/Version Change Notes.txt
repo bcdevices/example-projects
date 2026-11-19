@@ -1,0 +1,2 @@
+1. move Tag-Connect footprint away from relay
+2. add 4.7uF cap

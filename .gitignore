@@ -1,1 +1,7 @@
 .DS_Store
+
+# KiCad lock files and autosave history
+*.lck
+.history/
+_autosave-*
+*-backups/
