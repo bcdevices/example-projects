@@ -1,3 +1,21 @@
+# Bento Board
+
+Open-source hardware sample board from Blue Clover Devices, used to
+demonstrate PLT production test workflows. An RP2350B host MCU and an
+ESP32-C3 wireless module sit alongside RGB LED, relay, sensor, buzzer,
+QWIIC and MikroBUS sections, in an OKW IN-BOX form factor. The board
+includes dedicated test points and Tag-Connect footprints for fixture-based test.
+
+| Top | Bottom |
+|---|---|
+| ![Bento Board top](images/bento-top.jpeg) | ![Bento Board bottom](images/bento-bottom.jpeg) |
+
+## Resources
+
+- [PLT docs: Bento Board sample](https://docs.pltcloud.com/samples/board/bento/)
+- [Bento PLT test plans](https://github.com/bcdevices/test-plans/tree/main/bento)
+- [Bento Zephyr firmware](https://github.com/bcdevices/bento-zephyr-fw)
+
 ## Layout
 
 ```
@@ -14,6 +32,7 @@ bento-board/
 │   └── rev1/
 ├── firmware/           Prebuilt firmware images
 │   └── blinky/
+├── images/             Board photos
 └── test/               PLT test plans
     └── flash-blinky/
 ```
